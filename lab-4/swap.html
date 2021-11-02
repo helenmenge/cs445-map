@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <img id="img1"src="https://tse4.mm.bing.net/th?id=OIP.AdPKRKMLbGSjLqQs7FIIKQHaEo&pid=Api&P=0&w=248&h=156" style="margin:20px; border:2px solid black">
+    </div>
+    <div>
+        <img id="img2" src="https://tse4.mm.bing.net/th?id=OIP.3a_5dTvvXiUnOpcW3Itq9AHaFj&pid=Api&P=0&w=248&h=187" style="margin:20px; border:2px solid black">
+    </div>
+    <div>
+        <button id="btn" style="background-color: rgb(152, 152, 248);height:30px; width:100px; margin-left: 50px;" onclick="swap()">Swap</button>
+    </div>
+    <script>
+      
+        function swap(){
+           var im1=document.getElementById("img1");
+           var im2=document.getElementById("img2");
+            im1src = im1.src;
+            im2src = im2.src;
+           im1.src = im2src;
+           im2.src = im1src;
+        }
+        
+        
+    </script>
+</body>
+</html>
