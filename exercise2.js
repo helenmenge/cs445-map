@@ -6,7 +6,7 @@ const isPrime = num => new Promise((resolve, reject) => {
     }, 500);
 });
 async function isPrimeAsync(num) {
-    let result = await isPrime(5);
+    let result = await isPrime(num);
     console.log(result);
 }
 console.log('start');
