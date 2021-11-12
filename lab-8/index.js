@@ -1,6 +1,5 @@
 const { Observable } = rxjs;
 
-window.onload = function() {
     document.getElementById('btn').onclick = function() {
         let number = document.getElementById('num').value;
         Observable.create(observer => {
@@ -35,4 +34,3 @@ window.onload = function() {
             });
         });
     }
-}
