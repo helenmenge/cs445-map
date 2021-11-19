@@ -1,0 +1,89 @@
+.container{
+    height:550px;
+    position: relative;
+    
+}
+#header{
+    display:flex;
+    flex-direction: row;
+    background-color:  chocolate;
+    width:99%;
+    height:60px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color:indigo
+}
+.logo{
+    margin-top: 10px;
+}
+#wg{
+   padding-top: 22px;
+   margin-left: 600px;
+   color:white;
+   font-size: 20px;
+}
+#Catalog{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 2px solid ;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 20px;
+    background-color:  chocolate;
+    color:white;
+}
+#title{
+    display:flex;
+    flex-direction:row;
+    width:77%;
+    margin-left: 90px;
+    justify-content: space-between;
+    padding:20px;
+}
+#colle{
+    font-size: 28px;
+    font-weight: bolder;
+}
+#addbtn{
+    background-color: chocolate;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    padding:10px;
+}
+#tabel{
+    border-collapse: collapse ;
+    margin-left: 90px;
+    width:80%;
+    background-color: rgb(221, 195, 247);
+    font-size: 17px;
+    
+   
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .footer{
+      width:99%;
+      background-color:chocolate;
+      height: 25px;
+      padding:10px;
+      font-weight: bolder;
+      font-size: 20px;
+      color:indigo;
+      position:fixed;
+      margin-top:5px;
+      margin-left: -8px;
+  }
+#hguest{
+    color:green;
+    background-color: chocolate;
+    text-align: center;
+}
+#me{
+    float:right;
+    color:rgb(248, 237, 237);
+    padding-right:10px;
+}

@@ -1,0 +1,73 @@
+/**.container{
+    background-image: url("../Image/Books2.jpg") ;
+}*/
+.header{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(65, 224, 224);
+    width:100%;
+    height:70px;
+    margin-top: 10px;
+    padding-left: 10px;
+    
+}
+#o{
+color:black
+}
+#logo{
+    color: chocolate;
+    font-weight: bolder;
+    
+}
+#Catalog{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 2px solid ;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: rgb(65, 224, 224);
+    color:chocolate;
+}
+#welcome{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    /**background-image: url("../Image/bobb.jpg");*/
+    color:rgb(252, 7, 7);
+    width:95%;
+    height:450px;
+    font-weight: 1000;
+    padding:10px;
+    font-size: 20px;
+    
+}
+#img-1{
+    display:flex;
+    flex-direction:row;
+    height:200px;
+    width:1100px;
+}
+#im1{
+    max-width: 15px;
+    
+}
+#lorem{
+    font-size: 15px;
+    font-weight: 750;
+    color:rgb(12, 12, 12);
+}
+#img1{
+    object-fit: cover;
+    max-width: 100%;
+    height:300px;
+}
+.footer{
+    display:flex;
+    width:100%;
+    background-color:rgb(65, 224, 224) ;
+    font-weight: 800;
+    font-size: 15px;
+    padding:10px;
+    margin-top: 35px;
+    margin-right: 55px;
+}

@@ -1,0 +1,78 @@
+.container{
+    height:555px;
+    border-bottom:2px solid;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    background-color:  chocolate;
+    height:60px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color:indigo
+}
+#wg{
+   padding-top: 30px;
+   margin-left: 400px;
+   color:white;
+   font-weight: bold;
+   font-size:20px;
+}
+#Catalog{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-left: 2px solid ;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    background-color:  chocolate;
+    color:white;
+}
+
+#colle{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#coe{
+    font-weight: bolder;
+}
+#tabel{
+    border-collapse: collapse ;
+    margin-left: 90px;
+    width:80%;
+    background-color: rgb(235, 234, 236);
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+ 
+  #btn1{
+      float:right;
+      margin-right: -25px;
+  }
+  #btn2{
+    float:right;
+    margin-right: 0px;
+}
+  .footer{
+      display:flex;
+      flex-direction: row;
+      background-color:chocolate;
+      height: 40px;
+      padding:10px;
+      padding-top: 2px;
+      margin: 70px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-weight: bold;
+      font-size: 20px;
+      color:indigo;
+  }
+
+#hguest{
+    color:green;
+    background-color: chocolate;
+    text-align: center;
+}
